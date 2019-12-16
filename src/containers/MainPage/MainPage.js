@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem} from 'reactstrap';
 import {NavLink} from "react-router-dom";
-import MainBurger from "./MainBurger";
+import MainBurger from "../MainBurger/MainBurger";
 
 const MainPage = (props) => {
 	const [collapsed, setCollapsed] = useState(true);

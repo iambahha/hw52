@@ -1,0 +1,25 @@
+.cinema-form {
+    padding: 20px 0;
+    border-bottom: aquamarine 3px solid;
+}
+
+.cinema-form label {
+    margin-right: 5px;
+    font-weight: bold;
+    color: mediumaquamarine;
+}
+
+.cinema-form input {
+    padding: 5px 10px;
+    border: 2px solid mediumaquamarine;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.cinema-form .btn {
+    padding: 7px 20px;
+    border: none;
+    background: mediumaquamarine;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+}

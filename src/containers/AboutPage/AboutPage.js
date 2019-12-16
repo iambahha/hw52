@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem} from 'reactstrap';
 import {NavLink} from "react-router-dom";
+import Cinemas from "../Cinemas/Cinemas";
 
 const AboutPage = (props) => {
 	const [collapsed, setCollapsed] = useState(true);
@@ -29,7 +30,7 @@ const AboutPage = (props) => {
 				</Navbar>
 			</div>
 			<div className='content'>
-				About Us
+				<Cinemas />
 			</div>
 		</div>
 	);
