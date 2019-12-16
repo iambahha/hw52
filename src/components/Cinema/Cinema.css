@@ -22,6 +22,8 @@
 }
 
 .item button {
+    width: 100px;
+    height: 55px;
     padding: 11px 20px;
     border: 1px solid black;
     background: mediumturquoise;

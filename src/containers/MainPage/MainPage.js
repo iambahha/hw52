@@ -12,18 +12,18 @@ const MainPage = (props) => {
 		<div className="container">
 			<div>
 				<Navbar color="faded" light>
-					<NavbarBrand href="/" className="mr-auto">Main Page</NavbarBrand>
+					<NavbarBrand href="/" className="mr-auto">Projects</NavbarBrand>
 					<NavbarToggler onClick={toggleNavbar} className="mr-2" />
 					<Collapse isOpen={!collapsed} navbar>
 						<Nav navbar>
 							<NavItem>
-								<NavLink exact to="/">Main Page</NavLink>
+								<NavLink exact to="/">Project #1</NavLink>
 							</NavItem>
 							<NavItem>
-								<NavLink to="/about">About Us</NavLink>
+								<NavLink to="/project2">Project #2</NavLink>
 							</NavItem>
 							<NavItem>
-								<NavLink to="/contacts">Our contacts</NavLink>
+								<NavLink to="/project3">Project #3</NavLink>
 							</NavItem>
 						</Nav>
 					</Collapse>

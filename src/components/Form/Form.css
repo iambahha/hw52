@@ -17,6 +17,8 @@
 }
 
 .cinema-form .btn {
+    width: 70px;
+    height: 40px;
     padding: 7px 20px;
     border: none;
     background: mediumaquamarine;

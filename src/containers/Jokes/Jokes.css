@@ -1,4 +1,8 @@
-.App {
+.Jokes {
   text-align: center;
   padding: 15px;
+}
+.Jokes > button{
+  width: 200px;
+  height: 40px;
 }

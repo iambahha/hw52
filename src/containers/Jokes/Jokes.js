@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './App.css';
-import Joke from "./components/Joke/Joke";
-import Button from "./components/Button/Button";
+import './Jokes.css';
+import Joke from "../../components/Joke/Joke";
+import Button from "../../components/Button/Button";
 
 class App extends Component {
   state = {
@@ -46,7 +46,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="Jokes">
         <div className="joke-container">
           {this.state.jokes.map(joke => <Joke text={joke.value} key={joke.id} />)}
         </div>

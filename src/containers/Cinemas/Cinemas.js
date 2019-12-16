@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './App.css'
+import './Cinemas.css'
 import Form from "../../components/Form/Form";
 import Cinema from "../../components/Cinema/Cinema";
 
@@ -54,23 +54,23 @@ class Cinemas extends Component {
   };
 
   takeFromStorage = () => {
-    if (localStorage.getItem(App.moviesList) === null) {
-      localStorage.setItem(App.moviesList, '[]');
+    if (localStorage.getItem(Cinemas.moviesList) === null) {
+      localStorage.setItem(Cinemas.moviesList, '[]');
       return [];
     } else {
-      const data = localStorage.getItem(App.moviesList);
+      const data = localStorage.getItem(Cinemas.moviesList);
       return JSON.parse(data);
     }
   };
 
   updateStorage = () => {
     let movies = this.state.movies;
-    localStorage.setItem(App.moviesList, JSON.stringify(movies));
+    localStorage.setItem(Cinemas.moviesList, JSON.stringify(movies));
   };
 
   render() {
     return (
-      <div className="Container">
+      <div className="Cinemas">
         <Form formSubmit={event => this.addToMovieList(event)}/>
         <Cinema
           list={this.state.movies}
