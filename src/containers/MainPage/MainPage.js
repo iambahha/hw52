@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem} from 'reactstrap';
 import {NavLink} from "react-router-dom";
+import MainBurger from "./MainBurger";
 
 const MainPage = (props) => {
 	const [collapsed, setCollapsed] = useState(true);
@@ -29,7 +30,7 @@ const MainPage = (props) => {
 				</Navbar>
 			</div>
 			<div className='content'>
-				Main Page
+				<MainBurger />
 			</div>
 		</div>
 	);

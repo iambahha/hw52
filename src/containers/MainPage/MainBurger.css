@@ -1,0 +1,16 @@
+.BurgerContainer{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    min-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    background: lightpink;
+    border-radius: 0 0 20px 20px;
+}
+.ingContainer{
+    margin: 0 auto;
+}
+.price{
+    margin-top: 0;
+}
